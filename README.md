@@ -2,9 +2,9 @@
 
 Intermediate level task for practicing the capabilities of the `ThreadPool` class for CPU-bound operations.
 
-Estimated time to complete the task - 1.5h.
+Estimated time to complete the task - 2h.
 
-The task requires .NET 6 SDK installed.
+The task requires .NET 8 SDK installed.
 
 ## Task Description
 
