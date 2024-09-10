@@ -15,7 +15,7 @@ public static class Selector
     /// <exception cref="ArgumentNullException">Thrown when the input list 'numbers' is null.</exception>
     public static IList<int> GetPalindromes(IList<int> numbers)
     {
-        ConcurrentBag<int> palindromes = new ConcurrentBag<int>();
+        ConcurrentBag<int> palindromes = [];
         _ = Parallel.ForEach(numbers, number =>
         {
             if (IsPalindrome(number))
